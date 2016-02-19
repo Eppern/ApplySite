@@ -5,9 +5,9 @@ using System.Web;
 
 namespace ApplySite.Models
 {
-    public class CV
+    public class SkillLevel
     {
-        public List<string> Hobbies { get; set; }
-        public int MyProperty { get; set; }
+        public int SkillLevelId { get; set; }
+        public string Name { get; set; }
     }
 }
